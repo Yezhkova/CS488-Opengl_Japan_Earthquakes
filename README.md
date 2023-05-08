@@ -32,7 +32,7 @@ Since both files contain latitude and longitude values we will use these to set 
 You should set up the logical graphics area so that the user can initially see all of the landcape plus a little extra space. The landscape should be drawn with white lines. You will probably find glBegin(GL_LINE_LOOP) useful here. The location of each earthquake in the file will be drawn with a '+' made out of two small lines. glBegin(GL_LINES) will be useful for this. The more intense the quake, the bigger the '+'. Magnitude 3 earthquakes will be drawn in yellow, magnitude 8 in red, with a smooth interpolation of those colours for the earthquakes in between.
 
 Drawing all of the earthquakes and the terrain from the given sample files will look something like this:
-![alt text]([https://www.evl.uic.edu/aej/488/code/hw1.jpg])
+![alt text](https://www.evl.uic.edu/aej/488/code/hw1.jpg)
 
 
 Now we can add some user interaction.
