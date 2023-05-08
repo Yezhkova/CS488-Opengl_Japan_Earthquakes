@@ -92,7 +92,7 @@ bool containsAlpha(const std::string& s){
 
 void readJapanMap() {
     std::fstream newfile;
-    newfile.open("/home/odal/Projects/japan/geo.txt",std::ios::in);
+    newfile.open("/home/odal/Projects/CS488-Opengl_Japan_Earthquakes/geo.txt",std::ios::in);
     if (newfile.is_open()) {
         std::string tp;
         while(getline(newfile, tp)){
@@ -132,7 +132,7 @@ void drawQuakePoints(const Earthquake& e) {
 
 void readQuakesMap() {
     std::fstream newfile;
-    newfile.open("/home/odal/Projects/japan/quake.txt",std::ios::in);
+    newfile.open("/home/odal/Projects/CS488-Opengl_Japan_Earthquakes/quake.txt",std::ios::in);
     if (newfile.is_open()) {
         std::string tp;
         while(getline(newfile, tp)) {
